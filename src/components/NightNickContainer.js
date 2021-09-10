@@ -8,7 +8,7 @@ class NightNickContainer extends React.Component {
         links: [
             {
                 id: 0,
-                title: ">>> SHAWN'S CHEMO GoFundMe PAGE <<<",
+                title: "SHAWN'S CHEMO GoFundMe PAGE",
                 link: "https://gofund.me/1d0e2b98",
                 image: "",
                 priority: 1,
