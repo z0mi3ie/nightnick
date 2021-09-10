@@ -1,6 +1,7 @@
 
 $text-color: #fff;
 $text-color-dim: #cccccc;
+$text-color-high: #3cff00;
 
 @use 'fonts';
 
@@ -74,6 +75,22 @@ a {
         &:hover {
             color:rgba(86,56,249,1);
             background-color: white;
+        }
+    }
+    
+    &.linklistitem-high {
+        color: $text-color-high ;
+        text-decoration: none;
+        border: 2px solid $text-color-high;
+        margin: 7px;
+        padding: 10px;
+        display: block;
+
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            color:rgba(86,56,249,1);
+            background-color: rgb(209, 206, 206);
         }
     }
 }

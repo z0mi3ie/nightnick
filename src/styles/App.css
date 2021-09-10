@@ -87,6 +87,22 @@ a.linklistitem:hover {
   background-color: white;
 }
 
+a.linklistitem-high {
+  color: #3cff00;
+  text-decoration: none;
+  border: 2px solid #3cff00;
+  margin: 7px;
+  padding: 10px;
+  display: block;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+a.linklistitem-high:hover {
+  color: #5638f9;
+  background-color: #d1cece;
+}
+
 .medialinks {
   text-align: center;
 }
