@@ -1,0 +1,106 @@
+@use 'fonts';
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 100%;
+  padding: 4rem 10px 4rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1.logotext {
+  color: #fff;
+  font-family: "Bornywale", "Signatria", Arial, Helvetica, sans-serif;
+  font-size: 64px;
+}
+
+img {
+  border-radius: 50%;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  color: #fff;
+  background: #5638f9;
+  background: -webkit-gradient(linear, left bottom, left top, from(#5638f9), color-stop(15%, #1966ed), to(#00d4ff));
+  background: linear-gradient(0deg, #5638f9 0%, #1966ed 15%, #00d4ff 100%);
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.iconlink {
+  color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+a.iconlink:hover {
+  color: #e8c2f7;
+}
+
+a.linklistitem {
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  margin: 7px;
+  padding: 10px;
+  display: block;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+a.linklistitem:hover {
+  color: #5638f9;
+  background-color: white;
+}
+
+.medialinks {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-align: center;
+}
+/*# sourceMappingURL=App.css.map */

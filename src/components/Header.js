@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <header>
             <div>
-                <img src={logo} alt="tiger figure" />
+                <img className="animate__animated animate__bounce" src={logo} alt="tiger figure" />
             </div>
             <div>
                 <h1 className="logotext">nightnick</h1>

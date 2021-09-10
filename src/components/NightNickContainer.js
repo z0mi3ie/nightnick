@@ -7,6 +7,12 @@ class NightNickContainer extends React.Component {
     state = {
         links: [
             {
+                id: 0,
+                title: "SHAWN'S CHEMO GoFundMe PAGE",
+                link: "https://gofund.me/1d0e2b98",
+                image: "",
+            },
+            {
                 id: 1,
                 title: "visit my shop!",
                 link: "http://www.etsy.com/shop/nightnick",
