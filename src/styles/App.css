@@ -88,9 +88,9 @@ a.linklistitem:hover {
 }
 
 a.linklistitem-high {
-  color: #3cff00;
+  color: #fff;
   text-decoration: none;
-  border: 2px solid #3cff00;
+  border: 2px solid #fff;
   margin: 7px;
   padding: 10px;
   display: block;

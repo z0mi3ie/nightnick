@@ -11,7 +11,7 @@ class NightNickContainer extends React.Component {
                 title: "visit my shop!",
                 link: "http://www.etsy.com/shop/nightnick",
                 image: "",
-                priority: 0,
+                priority: 1,
             },
             {
                 id: 2,

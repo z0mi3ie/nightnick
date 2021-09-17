@@ -1,7 +1,8 @@
 
 $text-color: #fff;
 $text-color-dim: #cccccc;
-$text-color-high: #3cff00;
+//$text-color-high: #3cff00;
+$text-color-high: #fff;
 
 @use 'fonts';
 
@@ -79,7 +80,7 @@ a {
     }
     
     &.linklistitem-high {
-        color: $text-color-high ;
+        color: $text-color-high;
         text-decoration: none;
         border: 2px solid $text-color-high;
         margin: 7px;
