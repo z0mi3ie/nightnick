@@ -3,6 +3,8 @@ import React from "react"
 import LinksList from "./LinksList"
 import Header from "./Header"
 
+import bubble1 from "../images/tiger_bubble_1.png"
+
 class NightNickContainer extends React.Component {
     state = {
         links: [
@@ -15,15 +17,15 @@ class NightNickContainer extends React.Component {
             },
             {
                 id: 2,
-                title: "custom pocket pal woodland critter",
-                link: "https://www.etsy.com/listing/1012764435/customize-your-own-pocket-pal-woodland?ref=shop_home_active_8&ltclid=",
+                title: "request for custom pet kitty",
+                link: "https://www.etsy.com/listing/994750181/custom-pet-cat-figurine-customizable?ref=shop_home_feat_1&ltclid=",
                 image: "",
                 priority: 0,
             },
             {
                 id: 3,
-                title: "request for custom pet kitty",
-                link: "https://www.etsy.com/listing/994750181/custom-pet-cat-figurine-customizable?ref=shop_home_feat_1&ltclid=",
+                title: "custom pocket pal woodland critter",
+                link: "https://www.etsy.com/listing/1012764435/customize-your-own-pocket-pal-woodland?ref=shop_home_active_8&ltclid=",
                 image: "",
                 priority: 0,
             },
@@ -57,7 +59,21 @@ class NightNickContainer extends React.Component {
                     <Header />
                     <LinksList links={this.state.links} />
                 </div>
+
+                <div id="background-wrap">
+                    <div class="bubble x1"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div class="bubble x2"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div class="bubble x3"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div class="bubble x4"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div class="bubble x5"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div class="bubble x6"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div class="bubble x7"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div class="bubble x8"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div class="bubble x9"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div class="bubble x10"><img className="" src={bubble1} alt="float tiger" /></div>
+                </div>
             </div>
+
         )
     }
 }
