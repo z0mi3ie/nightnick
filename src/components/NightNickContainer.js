@@ -61,16 +61,16 @@ class NightNickContainer extends React.Component {
                 </div>
 
                 <div id="background-wrap">
-                    <div class="bubble x1"><img className="" src={bubble1} alt="float tiger" /></div>
-                    <div class="bubble x2"><img className="" src={bubble1} alt="float tiger" /></div>
-                    <div class="bubble x3"><img className="" src={bubble1} alt="float tiger" /></div>
-                    <div class="bubble x4"><img className="" src={bubble1} alt="float tiger" /></div>
-                    <div class="bubble x5"><img className="" src={bubble1} alt="float tiger" /></div>
-                    <div class="bubble x6"><img className="" src={bubble1} alt="float tiger" /></div>
-                    <div class="bubble x7"><img className="" src={bubble1} alt="float tiger" /></div>
-                    <div class="bubble x8"><img className="" src={bubble1} alt="float tiger" /></div>
-                    <div class="bubble x9"><img className="" src={bubble1} alt="float tiger" /></div>
-                    <div class="bubble x10"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div className="bubble x1"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div className="bubble x2"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div className="bubble x3"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div className="bubble x4"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div className="bubble x5"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div className="bubble x6"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div className="bubble x7"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div className="bubble x8"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div className="bubble x9"><img className="" src={bubble1} alt="float tiger" /></div>
+                    <div className="bubble x10"><img className="" src={bubble1} alt="float tiger" /></div>
                 </div>
             </div>
 
